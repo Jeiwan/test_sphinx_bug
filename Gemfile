@@ -32,3 +32,6 @@ gem 'slim-rails'
 
 gem 'jquery-rails'
 gem 'jbuilder'
+
+gem 'mysql2'
+gem 'thinking-sphinx'

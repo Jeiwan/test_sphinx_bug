@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+100.times do
+  titles = ["nihil", "para bellum", "carpe diem", "et cetera", "id est", "veni", "vedi", "vici"]
+  Question.create(title: titles.sample)
+  # Uncomment sleep to fix the bug
+  # sleep 1
+end
